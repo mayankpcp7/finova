@@ -3,7 +3,7 @@ import React from 'react'
 
 const Ready = () => {
     return (
-        <div className='bg-rich-black'>
+        <div className='bg-off-black'>
             <div className='max-w-[1072px] mx-auto px-4 md:py-[60px] sm:py-12 py-8'>
                 <div className='max-w-[1040px] rounded-[30px] bg-brown-black-gradient p-[30px] flex justify-center items-center gap-16'>
                     <Image width={252} height={495} src="/assets/images/png/bitcoin-plane.png" alt='bitcoin-plane' />

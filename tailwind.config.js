@@ -19,7 +19,7 @@ module.exports = {
         xs:"420px"
       },
      colors: {
-        "rich-black": "#0A0A0B",
+          "off-black": "#0A0A0B",
         "luxor-gold": "#AA832F",
         "moon-mist": "#E2DDCB",
         cloud: "#C4C4C5",
@@ -42,9 +42,11 @@ module.exports = {
       },
       lineHeight: {
         110: "110%",
+        125: "125%",
         126: "126%",
       },
       boxShadow: {
+<<<<<<< HEAD
         progress: " 0px 4px 4px 0px #B8C37773",
       },
       borderRadius: {
@@ -65,6 +67,16 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+=======
+        progress: "0px 4px 4px 0px #B8C37773",
+      },
+      backgroundImage: {
+        "gold-btn": "linear-gradient(180deg, #AA832F 0%, #795302 100%)",
+      },
+      borderRadius: {
+        200: "200px",
+        10: "10px",
+>>>>>>> ccd788989a6205899b256e4d3c97f40e700a6f39
       },
     },
   },

@@ -4,28 +4,28 @@
 
 @font-face {
   font-family: "eudoxus-sans";
-  src: url("/public/assets/fonts/eudoxus-sans-extra-bold.ttf");
+  src: url("../public/assets/fonts/eudoxus-sans-extra-bold.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "eudoxus-sans";
-  src: url("/public/assets/fonts/eudoxus-sans-bold.ttf");
+  src: url("../public/assets/fonts/eudoxus-sans-bold.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "eudoxus-sans";
-  src: url("/public/assets/fonts/eudoxus-sans-medium.ttf");
+  src: url("../public/assets/fonts/eudoxus-sans-medium.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "eudoxus-sans";
-  src: url("/public/assets/fonts/eudoxus-sans-regular.ttf");
+  src: url("../public/assets/fonts/eudoxus-sans-regular.ttf");
   font-display: swap;
 }
 
-body {
-  font-family: "eudoxus-sans";
+* {
+  font-family: "eudoxus-sans", sans-serif;
 }
