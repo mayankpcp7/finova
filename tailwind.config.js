@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "off-black": "#0A0A0B",
         "luxor-gold": "#AA832F",
         "moon-mist": "#E2DDCB",
         cloud: "#C4C4C5",
@@ -30,10 +31,18 @@ module.exports = {
       },
       lineHeight: {
         110: "110%",
+        125: "125%",
         126: "126%",
       },
       boxShadow: {
-        progress: " 0px 4px 4px 0px #B8C37773",
+        progress: "0px 4px 4px 0px #B8C37773",
+      },
+      backgroundImage: {
+        "gold-btn": "linear-gradient(180deg, #AA832F 0%, #795302 100%)",
+      },
+      borderRadius: {
+        200: "200px",
+        10: "10px",
       },
     },
   },
