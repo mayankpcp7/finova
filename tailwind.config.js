@@ -32,6 +32,9 @@ module.exports = {
         110: "110%",
         126: "126%",
       },
+      boxShadow: {
+        progress: " 0px 4px 4px 0px #B8C37773",
+      },
     },
   },
   plugins: [],
