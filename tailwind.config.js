@@ -1,13 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: ["class"],
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './pages/**/*.{js,jsx}',
+    './components/**/*.{js,jsx}',
+    './app/**/*.{js,jsx}',
+    './src/**/*.{js,jsx}',
   ],
+  prefix: "",
   theme: {
     extend: {
-      colors: {
+      backgroundImage: {
+        "brown-gradient":"linear-gradient(180deg, #AA832F 0%, #795302 100%)",
+        "white-gradient":"linear-gradient(327.64deg, rgba(170, 131, 47, 0.04) 0%, rgba(170, 131, 47, 0.06) 100%)",
+        "brown-black-gradient":"radial-gradient(110.97% 56.01% at 50% 50%, #7D5706 0%, #A67F2C 65.95%, #E7B549 93.45%)",
+      },
+      screens: {
+        xs:"420px"
+      },
+     colors: {
+        "rich-black": "#0A0A0B",
         "luxor-gold": "#AA832F",
         "moon-mist": "#E2DDCB",
         cloud: "#C4C4C5",
@@ -32,7 +44,29 @@ module.exports = {
         110: "110%",
         126: "126%",
       },
+      boxShadow: {
+        progress: " 0px 4px 4px 0px #B8C37773",
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
     },
   },
-  plugins: [],
-};
+  plugins: [require("tailwindcss-animate")],
+}

@@ -1,10 +1,11 @@
-import Hero from "@/components/Hero";
-import Image from "next/image";
+import Faq from "@/components/Faq";
+import Ready from "@/components/Ready";
 
 export default function Home() {
   return (
     <div className="overflow-hidden">
-      <Hero />
+      <Faq />
+      <Ready/>
     </div>
   );
 }
