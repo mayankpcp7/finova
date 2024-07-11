@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+         "gold-btn": "linear-gradient(180deg, #AA832F 0%, #795302 100%)",
         "brown-gradient":"linear-gradient(180deg, #AA832F 0%, #795302 100%)",
         "white-gradient":"linear-gradient(327.64deg, rgba(170, 131, 47, 0.04) 0%, rgba(170, 131, 47, 0.06) 100%)",
         "brown-black-gradient":"radial-gradient(110.97% 56.01% at 50% 50%, #7D5706 0%, #A67F2C 65.95%, #E7B549 93.45%)",
@@ -46,13 +47,14 @@ module.exports = {
         126: "126%",
       },
       boxShadow: {
-<<<<<<< HEAD
-        progress: " 0px 4px 4px 0px #B8C37773",
+        progress: "0px 4px 4px 0px #B8C37773",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+            200: "200px",
+        10: "10px",
       },
       keyframes: {
         "accordion-down": {
@@ -67,16 +69,6 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-=======
-        progress: "0px 4px 4px 0px #B8C37773",
-      },
-      backgroundImage: {
-        "gold-btn": "linear-gradient(180deg, #AA832F 0%, #795302 100%)",
-      },
-      borderRadius: {
-        200: "200px",
-        10: "10px",
->>>>>>> ccd788989a6205899b256e4d3c97f40e700a6f39
       },
     },
   },
