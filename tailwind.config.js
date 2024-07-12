@@ -20,7 +20,7 @@ module.exports = {
         xs:"420px"
       },
      colors: {
-          "off-black": "#0A0A0B",
+        "off-black": "#0A0A0B",
         "luxor-gold": "#AA832F",
         "moon-mist": "#E2DDCB",
         cloud: "#C4C4C5",

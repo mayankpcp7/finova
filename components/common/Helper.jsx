@@ -21,6 +21,21 @@ export const accordionList = [
         content: "FINOVA is a crypto research group offering trade signals and courses to help you achieve financial freedom.",
     },
 ];
+
+// ============================================ FOOTER ==========================================//
+export const socialMediaLinks = [
+    { src: "https://facebook.com", icon: "fab fa-facebook-f" },
+    { src: "https://instagram.com", icon: "fab fa-instagram" },
+    { src: "https://twitter.com", icon: "fab fa-twitter" },
+    { src: "https://linkedin.com", icon: "fab fa-linkedin-in" },
+    { src: "https://youtube.com", icon: "fab fa-youtube" },
+];
+
+export const footerLinks = [
+    { href: "/privacy-policy", text: "Privacy Policy" },
+    { href: "/terms-of-service", text: "Terms of Service" },
+    { href: "/cookies-settings", text: "Cookies Settings" },
+];
 export const ChooseCards = [
     {
         logo: "/assets/images/png/gains.png",
