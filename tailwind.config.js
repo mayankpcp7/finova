@@ -2,25 +2,27 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   prefix: "",
   theme: {
     extend: {
       backgroundImage: {
-         "gold-btn": "linear-gradient(180deg, #AA832F 0%, #795302 100%)",
-        "brown-gradient":"linear-gradient(180deg, #AA832F 0%, #795302 100%)",
-        "white-gradient":"linear-gradient(327.64deg, rgba(170, 131, 47, 0.04) 0%, rgba(170, 131, 47, 0.06) 100%)",
-        "brown-black-gradient":"radial-gradient(110.97% 56.01% at 50% 50%, #7D5706 0%, #A67F2C 65.95%, #E7B549 93.45%)",
+        "gold-btn": "linear-gradient(180deg, #AA832F 0%, #795302 100%)",
+        "brown-gradient": "linear-gradient(180deg, #AA832F 0%, #795302 100%)",
+        "white-gradient":
+          "linear-gradient(327.64deg, rgba(170, 131, 47, 0.04) 0%, rgba(170, 131, 47, 0.06) 100%)",
+        "brown-black-gradient":
+          "radial-gradient(110.97% 56.01% at 50% 50%, #7D5706 0%, #A67F2C 65.95%, #E7B549 93.45%)",
       },
       screens: {
-        xs:"420px"
+        xs: "420px",
       },
-     colors: {
-          "off-black": "#0A0A0B",
+      colors: {
+        "off-black": "#0A0A0B",
         "luxor-gold": "#AA832F",
         "moon-mist": "#E2DDCB",
         cloud: "#C4C4C5",
@@ -56,7 +58,7 @@ module.exports = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
-            200: "200px",
+        200: "200px",
         10: "10px",
         20: "20px",
       },
@@ -77,4 +79,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

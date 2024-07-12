@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Button from './common/Button'
+import Button, { GoldButton } from './common/Button'
 
 const Ready = () => {
     return (
@@ -12,7 +12,7 @@ const Ready = () => {
                         <div className='flex flex-col max-w-[320px]'>
                             <h2 className='text-center md:text-start text-white font-bold leading-126 sm:text-custom-4xl text-custom-2xl'>Ready to Start?</h2>
                             <p className='text-white md:text-start text-center font-normal xs:text-lg text-base leading-126 sm:max-w-[320px] max-w-[265px] md:mx-0 mx-auto sm:pt-8 pt-3'>Join FINOVA today and take the first step towards financial freedom. Our expert trade signals and courses will guide you every step of the way.</p>
-                            <Button className="sm:mt-8 mt-6" btnname={"Join Now"} />
+                            <GoldButton className="sm:mt-8 mt-6" goldButton={"Join Now"} />
                         </div>
                     </div>
                 </div>
