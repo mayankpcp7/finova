@@ -19,8 +19,11 @@ module.exports = {
         parchment: "#FFFBAD",
         "primary-black": "#00000050",
         "heavy-metal": "#2b2925",
+        "dark-gold": "#11100D",
+        "dark-border": "#2A2825",
       },
       fontSize: {
+        md: "18px",
         "custom-sm": "13px",
         "custom-md": "22px",
         "custom-lg": "26px",
@@ -43,6 +46,7 @@ module.exports = {
       borderRadius: {
         200: "200px",
         10: "10px",
+        20: "20px",
       },
     },
   },

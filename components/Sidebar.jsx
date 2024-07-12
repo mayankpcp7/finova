@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Sidebar = () => {
   return (
-    <div className="max-w-[1080px] py-5 px-5 mx-auto">
+    <div className="max-w-[1080px] relative z-10 py-5 px-5 mx-auto">
       <div className="flex justify-between w-full items-center">
         <Link href="/">
           <Image
