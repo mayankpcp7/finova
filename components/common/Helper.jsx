@@ -1,3 +1,5 @@
+import { Discord, Facebook, Instagram, Linkedin, Twitter, Youtube } from "./Icons";
+
 // ================================== FAQ ======================================= //
 export const accordionList = [
     {
@@ -24,17 +26,18 @@ export const accordionList = [
 
 // ============================================ FOOTER ==========================================//
 export const socialMediaLinks = [
-    { src: "https://facebook.com", icon: "fab fa-facebook-f" },
-    { src: "https://instagram.com", icon: "fab fa-instagram" },
-    { src: "https://twitter.com", icon: "fab fa-twitter" },
-    { src: "https://linkedin.com", icon: "fab fa-linkedin-in" },
-    { src: "https://youtube.com", icon: "fab fa-youtube" },
+    { src: "https://facebook.com", icon: <Facebook /> },
+    { src: "https://instagram.com", icon: <Instagram /> },
+    { src: "https://discord.com", icon: <Discord /> },
+    { src: "https://twitter.com", icon: <Twitter /> },
+    { src: "https://linkedin.com", icon: <Linkedin /> },
+    { src: "https://youtube.com", icon: <Youtube /> },
 ];
 
 export const footerLinks = [
-    { href: "/privacy-policy", text: "Privacy Policy" },
-    { href: "/terms-of-service", text: "Terms of Service" },
-    { href: "/cookies-settings", text: "Cookies Settings" },
+    { src: "/privacy-policy", title: "Privacy Policy" },
+    { src: "/terms-of-service", title: "Terms of Service" },
+    { src: "/cookies-settings", title: "Cookies Settings" },
 ];
 export const ChooseCards = [
     {
